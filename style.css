@@ -370,9 +370,9 @@ nav #menu
 }
 #footer p:hover
 {
-    color: red;
+    /* color: red; */
 
-font-size: 17px;
+/* font-size: 17px; */
 cursor: pointer;
     
 }
@@ -401,6 +401,8 @@ cursor: pointer;
   font-size: 20px;
     
 }
+
+
 
 /* --------------------------footer 2---------------- */
 footer{

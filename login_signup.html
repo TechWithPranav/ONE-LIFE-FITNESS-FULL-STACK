@@ -23,12 +23,12 @@
                 <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-                <form action="#" class="login">
+                <form action="login.php" class="login" method="post">
                     <div class="field">
-                        <input type="text" placeholder="Email Address" required>
+                        <input type="text" name="USER_NAME" placeholder="USER_NAME" required>
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="password" required>
+                        <input type="password" name="PASSWORD" placeholder="PASSWORD" required>
                     </div>
                     <div class="pass-link"><a href="#">Forgot password?</a></div>
                     <div class="field">
@@ -39,15 +39,15 @@
 
 
 
-                <form action="#" class="Signup">
+                <form action="signup.php" class="Signup" method="post">
                     <div class="field">
-                        <input type="text" placeholder="Email Address" required>
+                        <input type="text" name="USER_NAME" placeholder="USER_NAME" required>
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="password" required>
+                        <input type="text" name="PASSWORD" placeholder="" required>
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="Confirm password" required>
+                        <input type="text" name="CONFIRM_PASSWORD" placeholder="Confirm password" required>
                     </div>
                    
                     <div class="field">

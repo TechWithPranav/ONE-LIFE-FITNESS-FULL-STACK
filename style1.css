@@ -241,6 +241,7 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
         height: 100%;
         width: fit-content;
         box-shadow: r
+    
 }
 section .container .contactForm{
     width: 50%;

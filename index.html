@@ -50,7 +50,7 @@
                   </li>
                   
                   <li class="nav-item">  
-                    <a class="nav-link" href="contact.html">CONTACT US</a>
+                    <a class="nav-link" href="contact.php">CONTACT US</a>
                   </li>
                   <li class="nav-item">  
                     <a class="nav-link" #login-3 href="login_signup.html">LOGIN</a>
@@ -205,13 +205,14 @@
     </div>
   </section>
   <!---------------------------subscribe-------------------------------------->
+  <form action="subcription.php" method="post">
   <section id="subscribe">
     <div class="container">
       <div class="subscribe text-center">
         <h2>Free Trail Available Now</h2>
         <p>Subscribe Now And Get Exlcusive Offers</p>
         <div class="input-group">
-          <input type="email" class="form-control" placeholder="Email Id">
+          <input type="email" class="form-control" name="EMAIL" placeholder="EMAIL">
           <div class="input-group-append">
             <button type="submit" class="input-group-text btn">Subscribe</button>  
           </div>
@@ -219,13 +220,14 @@
       </div>  
     </div>
   </section>
+</form>
   <!---------------------------Footer--------------------------------------->
   <section id="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <img src="logo.png" class="footer-logo">
-          <p>All of us are conscious of the fact that… it will also be the first time that I speak publicly since my transition. Parenthetically this is a word that has very complicated subject for me because of its complicity in a binary gender narrative that I am not particularly comfortable with.  </p>
+          <p id="temp22">All of us are conscious of the fact that it will also be the first time that I speak publicly since my transition. Parenthetically this is a word that has very complicated subject for me because of its complicity in a binary gender narrative that I am not particularly comfortable with.  </p>
         </div>
         <div class="col-md-3">
           <h4>Features</h4>
