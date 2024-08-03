@@ -32,4 +32,4 @@ Step 5 : Now main step you need to create database manually in xampp and  tables
  ------everything is done now and working -------------------------  
 
 Note : just instal xampp and put your project folder in xammp-> htdocs and run server and type command localhost/your_project_folder
-       --- this is imp                     
+       --- --this is imp                     
