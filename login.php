@@ -6,7 +6,7 @@
 $host="localhost";
 $user= "root";
 $password = "";
-$db="mp_dbms";
+$db="one_life_fitness";
 
 // Create a database connection
 
@@ -22,7 +22,7 @@ if (isset($_POST['USER_NAME'])) {
     $uname=$_POST['USER_NAME'];
     $password=$_POST['PASSWORD'];
 
-    $sql = "select * from userss where USER_NAME='".$uname."' AND 
+    $sql = "select * from users where USER_NAME='".$uname."' AND 
     PASSWORD = '".$password."' limit 1";
 
 

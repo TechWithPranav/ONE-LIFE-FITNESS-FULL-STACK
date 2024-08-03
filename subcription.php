@@ -23,7 +23,7 @@ else{
 
 $EMAIL = $_POST['EMAIL'];
 
-$sql = "INSERT INTO `mp_dbms`.`subcriptionn` (`EMAIL`, `DATE_TIME`) VALUES ('$EMAIL', current_timestamp());";
+$sql = "INSERT INTO `one_life_fitness`.`subcriptionn` (`EMAIL`, `DATE_TIME`) VALUES ('$EMAIL', current_timestamp());";
 
 //Execute the query
 

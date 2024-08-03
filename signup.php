@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       if (($PASSWORD == $CONFIRM_PASSWORD) && $exists==false) {
          # code...
-         $sql = "INSERT INTO `mp_dbms`.`userss` (`USER_NAME`, `PASSWORD`, `DATE_TIME`) VALUES ('$USER_NAME', '$PASSWORD', current_timestamp());";
+         $sql = "INSERT INTO `one_life_fitness`.`users` (`USER_NAME`, `PASSWORD`, `DATE_TIME`) VALUES ('$USER_NAME', '$PASSWORD', current_timestamp());";
 
        
 

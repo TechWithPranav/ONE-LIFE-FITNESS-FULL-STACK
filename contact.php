@@ -25,7 +25,7 @@ $EMAIL_ADDRESS = $_POST['EMAIL_ADDRESS'];
 $MOB_NO = $_POST['MOB_NO'];
 $MESSAGE = $_POST['MESSAGE'];
 
-$sql = "INSERT INTO `mp_dbms` . `contact_uss` (`FIRST_NAME`, `LAST_NAME`, `EMAIL_ADDRESS`, `MOB_NO`, `MESSAGE`, `DATE_TIME`) VALUES ('$FIRST_NAME', '$LAST_NAME', '  $EMAIL_ADDRESS', '$MOB_NO', ' $MESSAGE', current_timestamp());";
+$sql = "INSERT INTO `one_life_fitness` . `contact` (`FIRST_NAME`, `LAST_NAME`, `EMAIL_ADDRESS`, `MOB_NO`, `MESSAGE`, `DATE_TIME`) VALUES ('$FIRST_NAME', '$LAST_NAME', '  $EMAIL_ADDRESS', '$MOB_NO', ' $MESSAGE', current_timestamp());";
 
 //   echo $sql;
 
@@ -43,6 +43,9 @@ else{
     
     //close the database connection
     $con->close();
+    
+    
+    
     
 }
     ?>
@@ -69,26 +72,26 @@ else{
                             <h2>Contact Info</h2>
                             <ul class="info">
                                 <li>
-                            <span><img src="location.png"></span>
+                            <span><img src="images/location.png"></span>
                             <span>Siddhivinayak Nagar, Medankarwadi,chakan,pune, 410501</span>
                         </li>
                         <li>
-                            <span><img src="email.png"></span>
+                            <span><img src="images/email.png"></span>
                             <span>onelifefitness@gmail.com</span>
                         </li>
                         <li>
-                            <span><img src="phone-call.png"></span>
+                            <span><img src="images/phone-call.png"></span>
                             <span>7058834565</span>
                         </li>
                     </ul>
                 </div>
                 
                 <ul class="sci">
-                    <li><a href="#"><img src="facebook.png"></a></li>
-                    <li><a href="#"><img src="twitter.png"></a></li>
-                    <li><a href="#"><img src="instagram.png"></a></li>
-                    <li><a href="#"><img src="pinterest.png"></a></li>
-                    <li><a href="#"><img src="linkedin.png"></a></li>
+                    <li><a href="#"><img src="images/facebook.png"></a></li>
+                    <li><a href="#"><img src="images/twitter.png"></a></li>
+                    <li><a href="#"><img src="images/instagram.png"></a></li>
+                    <li><a href="#"><img src="images/pinterest.png"></a></li>
+                    <li><a href="#"><img src="images/linkedin.png"></a></li>
                     
                 </ul>
             </div>
